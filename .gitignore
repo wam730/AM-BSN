@@ -1,0 +1,29 @@
+cat <<EOF > .gitignore
+# Python
+__pycache__/
+output/
+output_EFI/
+output_others/
+results/
+model-backup/
+DND_img/
+DND/
+.dockerignore
+convert_onnx.py
+Dockerfile
+environment.yml
+*.py[cod]
+random_states.pkl
+requirements.txt
+test_metrics.py
+train.py
+# Jupyter
+.ipynb_checkpoints/
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+# 系统文件
+.DS_Store
+EOF
