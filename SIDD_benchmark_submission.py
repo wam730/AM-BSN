@@ -29,7 +29,7 @@ args.add_argument('-c', '--config', default='config/SIDD', type=str)
 args.add_argument('-e', '--ckpt_epoch', default=0, type=int)
 args.add_argument('-g', '--gpu', default='0', type=str)
 args.add_argument('-sf','--save_folder', default='output/SIDD_test_out', type=str)
-args.add_argument('-p','--pretrained', default='/home/lab/wyj/mmbsn/output/120_single_no_attn_finetune/checkpoint/SIDD_MMBSN_028.pth', type=str)
+args.add_argument('-p','--pretrained', default='./ckpt/AMBSN', type=str)
 args.add_argument('--thread', default=8, type=int)
 args.add_argument('--self_en', action='store_true')
 args.add_argument('--test_dir', default='./dataset/test_data', type=str)
@@ -160,7 +160,7 @@ for i in range(inputs.shape[0]):
         output_blocks_base64string.append(out_block_base64string)
 
 # Save outputs to .csv file.
-output_file = './output/SubmitSrgb_benchmark_sasl.csv'
+output_file = './output/SubmitSrgb_benchmark.csv'
 print(f'Saving outputs to {output_file}')
 output_df = pd.DataFrame()
 n_blocks = len(output_blocks_base64string)
