@@ -17,6 +17,7 @@ random_states.pkl
 requirements.txt
 test_metrics.py
 train.py
+model/restormer_arch.py
 # Jupyter
 .ipynb_checkpoints/
 # LaTeX
