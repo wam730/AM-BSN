@@ -6,6 +6,6 @@ Part of our codes are adapted from [AP-BSN](https://github.com/wooseoklee4/AP-BS
 
 ## How to test
 To test noisy images with pre-trained AM-BSN in gpu:0
-'''
+```
 python test.py -c SIDD -g 0 --pretrained ./ckpt/AMBSN.pth --td [your noisy images dir]
-'''
+```
