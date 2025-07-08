@@ -24,6 +24,7 @@ Our experiments are done with:
 
 ## How to test
 To test noisy images with pre-trained AM-BSN in gpu:0
+
 Use png2csv.py to convert the denoised images from the SIDD benchmark dataset into the CSV format required for the Kaggle competition.
 ```
 python test.py -c SIDD -g 0 --pretrained ./ckpt/AMBSN.pth --td [your noisy images dir]
