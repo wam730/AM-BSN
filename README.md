@@ -22,6 +22,10 @@ Our experiments are done with:
 - opencv 4.10.0.84
 - scikit-image 0.24.0
 
+### Directory
+The data used in the training of our method is consistent with that of the APBSN. For the specific method of obtaining training data, please refer to [AP-BSN](https://github.com/wooseoklee4/AP-BSN).
+
+
 ## How to test
 To test noisy images with pre-trained AM-BSN in gpu:0
 
