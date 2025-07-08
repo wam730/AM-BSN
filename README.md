@@ -1,5 +1,5 @@
-# AM-BSN
-Official PyTorch implementation of "Enhancing Self-Supervised Image Denoising with Asymmetric Mask Blind-Spot Networks."
+# AM-BSN: Enhancing Self-Supervised Image Denoising with Asymmetric Mask Blind-Spot Network
+This is official PyTorch implementation of "Enhancing Self-Supervised Image Denoising with Asymmetric Mask Blind-Spot Network."
 <!-- ![图片描述](./images/example.png) -->
 
 ## Abstract
