@@ -135,7 +135,7 @@ class BSN(nn.Module):
 
             # ============== FUSE ====================
             # 加权融合
-            img_pd_bsn = torch.add(torch.mul(img_pd5_bsn, 1), torch.mul(img_pd2_bsn, 0))
+            img_pd_bsn = torch.add(torch.mul(img_pd5_bsn, 0.2), torch.mul(img_pd2_bsn, 0.8))
 
         else:
             if h % self.pd_b != 0:
